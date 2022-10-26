@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.container-item1 {
+    flex: 1;
+    height: 150px;
+}
+
+.container-item2 {
+    flex: 1;
+    height: 150px;
+}
+
+@media (max-width: 739px) {
+    .container-item {
+        flex: none;
+        width: 200px;
+    }
+}
